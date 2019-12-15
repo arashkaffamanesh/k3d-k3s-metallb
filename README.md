@@ -25,10 +25,15 @@ curl 172.20.0.2 # doesn't work as expected, docker needs some tweeking
 ## The Solution
 
 git clone https://github.com/AlmirKadric-Published/docker-tuntap-osx.git
+
 $ ./docker-tuntap-osx/sbin/docker_tap_install.sh
+
 $ ./docker-tuntap-osx/sbin/docker_tap_up.sh
+
 $ sudo route -v add -net 172.20.0.0 -netmask 255.255.255.0 10.0.75.2
+
 $ curl 172.19.0.3
+
 404 page not found :-)
 
 
