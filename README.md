@@ -1,3 +1,8 @@
+# Prerequisite
+Install tuntap:
+
+`brew install Caskroom/cask/tuntap`
+
 # k3s with k3d and MetalLB (on Mac)
 
 Here you go:
